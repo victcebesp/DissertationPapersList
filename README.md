@@ -8,6 +8,8 @@ Apart from the list of papers to read, I will try keeping track of the one I am 
 
 The dissertation goal consist on improving the task of transfer learning by using evolving strategies. As a reference paper, we currently are using [Evolved Policy Gradients](https://arxiv.org/pdf/1802.04821.pdf).
 
+**Dissertation supervisor:** Michael Garcia Ortiz
+
 ## Currently reading
 
 [A Comprehensive Survey on Transfer Learning](PapersSummary/A_Comprehensive_Survey_on_Transfer_Learning.md) Progress: 🟩🟩⬜️⬜️⬜️
