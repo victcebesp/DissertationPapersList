@@ -12,7 +12,7 @@ The dissertation goal consist on improving the task of transfer learning by usin
 
 ## Currently reading
 
-[A Comprehensive Survey on Transfer Learning](PapersSummary/A_Comprehensive_Survey_on_Transfer_Learning.md) Progress: 🟩🟩⬜️⬜️⬜️
+[A Comprehensive Survey on Transfer Learning](PapersSummary/A_Comprehensive_Survey_on_Transfer_Learning.md) Progress: 🟩🟩🟩⬜️⬜️
 
 ## Papers To read
 
