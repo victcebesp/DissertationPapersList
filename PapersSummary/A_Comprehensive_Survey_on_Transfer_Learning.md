@@ -47,6 +47,7 @@ Another categorization present in the literature is:
 #### Transfer Learning interpretations
 
 - **Data-based interpretations:** Transfer the knowledge via the adjustment and transformaiton of the data. The main objective is to reduce the difference of the distributions of the data. There are mainly two data-based strategies:
+
   - **Instance Weighting Strategy**: The idea consists in assigning weights to the source-domain instances. Such weights is could be calculated dividing the marginal probabilities of each dimension from the target-domain over the source-domain.
     However, this could be very expensive so some approximations exist to deal that such calculation such as: [Kernel Mean Matching (KMM)](https://papers.nips.cc/paper/3075-correcting-sample-selection-bias-by-unlabeled-data.pdf), [Kullback-Leibler Importance Estimation Procedure (KLIEP)](https://www.ism.ac.jp/editsec/aism/pdf/060_4_0699.pdf), [2-Stage Weighting Framework for Multi-Source Domain Adaptation (2SW-MDA)](https://papers.nips.cc/paper/4195-a-two-stage-weighting-framework-for-multi-source-domain-adaptation).
     Instead of calculating the approximation of the weights directly, it has been tried to calculate the weights iteratively: [TrAdaBoost](http://www.cs.ust.hk/~qyang/Docs/2007/tradaboost.pdf), [Multi-Source TrAdaBoost (MsTrAdaBoost)](https://ieeexplore.ieee.org/document/5539857).
@@ -59,5 +60,13 @@ Another categorization present in the literature is:
       - **Feature selection**: Feature selection is another kind of operation for feature reduction, which is used to extract the pivot features. The pivot features are the ones that behave in the same way in different domains. Due to the stability of these features, they can be used as the bridge to transfer the knowledge.
       - **Feature encoding**: Feature encoding attempts to encode the instances into abstracter features by encoding them. Autoencoders are widely used. However, because of the computational cost, there is some work that tries to used linear Autoencoders.
     - **Feature alignment**: Note that feature augmentation and feature reduction mainly focus on the explicit features in a feature space. In contrast, in addition to the explicit features, feature alignment also focuses on some implicit features such as the statistic features and the spectral features.
-    -
-- **Model-based interpretations:**
+
+- **Model-based interpretations:** Transfer learning approaches can also be interpreted from the model perspective. It is important noting that a Transfer Learnign model may consist of sub-modules such as encoder, classifiers, etc.
+  - **Model Control Strategy:** This strategy consist in applying regularizers to the model in order to transfer the knowledge already contained in the pre-obtained source models.
+  - **Parameter Control Strategy:** This strategy is focused on the parameters of the models as in these parameters, the knowledge of the model is represented.
+    - **Parameter Sharing:** An intuitive way of controlling the parameters is to directly share the parameters of the source learner to the target learner. Parameter sharing is widely employed especially in the network-based approaches. For example, if we have a neural network for the source task, we can freeze (or say, share) most of its layers and only finetune the last few layers to produce a target network
+    - **Parameter Restriction:** Another parameter-control-type strategy is to restrict the parameters. Different from the parameter sharing strategy that enforces the models share some parameters, parame- ter restriction strategy only requires the parameters of the source and the target models to be similar.
+  - **Model Ensemble Strategy:** This strategy aims to combine a number of weak classifiers to make the final predictions.
+  - **Deep Learning Technique:** Many researchers utilize the deep learning techniques to construct transfer learning models. Deep Learning approaches can be further divided in two types.
+    - **Traditional Deep Learning:** This approach is based on the use of Autoencoders.
+    - **Adversarial Deep Learning:** This approach is based on the use of GANs in which the discriminator tries to detect whether a instance comes from the source or target domain.
