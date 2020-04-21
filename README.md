@@ -12,7 +12,7 @@ The dissertation goal consist on improving the task of transfer learning by usin
 
 ## Currently reading
 
-[A Comprehensive Survey on Transfer Learning](PapersSummary/A_Comprehensive_Survey_on_Transfer_Learning.md) Progress: 🟩🟩🟩🟩🟩
+[Evolution Strategies as a Scalable Alternative to Reinforcement Learning](https://arxiv.org/pdf/1703.03864.pdf) Progress: 🟩⬜️⬜️⬜️⬜️
 
 ## Papers To read
 
@@ -29,8 +29,8 @@ The dissertation goal consist on improving the task of transfer learning by usin
 
 - ### Evolving strategies
 
-  1. [Evolution Strategies as a Scalable Alternative to Reinforcement Learning](https://arxiv.org/pdf/1703.03864.pdf)!
-  2. [Completely Derandomized Self-Adaptation inEvolution Strategies](http://0-cognet.mit.edu.wam.city.ac.uk/pdfviewer/journal/106365601750190398)
+  1. [Completely Derandomized Self-Adaptation inEvolution Strategies](http://0-cognet.mit.edu.wam.city.ac.uk/pdfviewer/journal/106365601750190398)
+  2. [Large-Scale Evolution of Image Classifiers](https://arxiv.org/abs/1703.01041)
 
 - ### Reinforcement Learning
 
