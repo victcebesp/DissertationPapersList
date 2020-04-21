@@ -12,7 +12,7 @@ The dissertation goal consist on improving the task of transfer learning by usin
 
 ## Currently reading
 
-[Evolution Strategies as a Scalable Alternative to Reinforcement Learning](https://arxiv.org/pdf/1703.03864.pdf) Progress: 🟩⬜️⬜️⬜️⬜️
+[Evolution Strategies as a Scalable Alternative to Reinforcement Learning](https://arxiv.org/pdf/1703.03864.pdf) Progress: 🟩🟩🟩🟩🟩
 
 ## Papers To read
 
@@ -49,6 +49,7 @@ The dissertation goal consist on improving the task of transfer learning by usin
 
 - ### Evolving strategies
 
-  2. [Evolved Policy Gradients](https://arxiv.org/abs/1802.04821)
+  1. [Evolved Policy Gradients](https://arxiv.org/abs/1802.04821)
+  2. [Evolution Strategies as a Scalable Alternative to Reinforcement Learning](https://arxiv.org/pdf/1703.03864.pdf)
 
 - ### Reinforcement Learning
